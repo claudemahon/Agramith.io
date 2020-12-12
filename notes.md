@@ -38,16 +38,11 @@ the beginning as I would like this project to expand into a multi country news o
 
 	- For a binary regression, the factor level 1 of the dependent variable should represent the the desired outcome.
 
-## How to build 
-- First I will need to parse the article
-	- using the newspaper3 api to find articles and pick the important information from them.
-	- will have to build a logistic regression expression to further identify and then parse the news articles.
+## What needs to be built?
+	- build or find an algorithim that can fetch data and check for;
+		- extrenal links in articles
+		- checks news sites to see if there are new articles being published.
+	- use this article for guidence: https://scholar.smu.edu/cgi/viewcontent.cgi?article=1036&context=datasciencereview;
+	- build an server that can hold all the data.
+	- write a script that updates the information on the app and in the website. app will likely be built with xarmin.
 
-
-## Step 2
-	- Make a script that updates and looks for new article every 10 mins.
-		- Make sure that it fetches all the data.
-		- I believe that a very important step is to check for Euphemism's and Dysphemism's. These are often used instead of using extremely harsh words.
-
-## step 3 
-	- Using an algorthim to filter through all the article, looking for similarities in all the articles. 
