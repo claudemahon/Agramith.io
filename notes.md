@@ -51,3 +51,8 @@ the beginning as I would like this project to expand into a multi country news o
 
 ## step 3 
 	- Using an algorthim to filter through all the article, looking for similarities in all the articles. 
+
+
+### Factd.io
+- This will be the actual name of the App.
+	- the app will be powered by Agramith.
